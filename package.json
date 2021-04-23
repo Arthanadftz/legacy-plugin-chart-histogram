@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/legacy-plugin-chart-histogram",
-  "version": "0.15.19",
+  "name": "@arthanasti/legacy-plugin-chart-histogram",
+  "version": "1.0.0",
   "description": "Superset Legacy Chart - Histogram",
   "sideEffects": [
     "*.css"
@@ -18,19 +18,19 @@
   "keywords": [
     "superset"
   ],
-  "author": "Superset",
+  "author": "Arthanadftz",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/Arthanadftz/superset-ui/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "homepage": "https://github.com/Arthanadftz/superset-ui#readme",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@data-ui/histogram": "^0.0.84",
     "@data-ui/theme": "^0.0.84",
-    "@superset-ui/chart-controls": "0.15.19",
+    "@arthanasti/chart-controls": "1.0.0",
     "@superset-ui/core": "0.15.19",
     "@vx/legend": "^0.0.198",
     "@vx/responsive": "^0.0.197",

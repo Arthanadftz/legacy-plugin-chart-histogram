@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-histogram
+## @arthanasti/legacy-plugin-chart-histogram
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-histogram.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-histogram)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-histogram&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-histogram)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import HistogramChartPlugin from '@superset-ui/legacy-plugin-chart-histogram';
+import HistogramChartPlugin from '@arthanasti/legacy-plugin-chart-histogram';
 
 new HistogramChartPlugin().configure({ key: 'histogram' }).register();
 ```

@@ -17,7 +17,7 @@
  * under the License.
  */
 import { t, validateNonEmpty } from '@superset-ui/core';
-import { formatSelectOptions, columnChoices } from '@superset-ui/chart-controls';
+import { formatSelectOptions, columnChoices } from '@arthanasti/chart-controls';
 export default {
   controlPanelSections: [{
     label: t('Query'),
